@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+
+#open {
+    background-image: url("cookingIngredients.jpeg");
+    min-height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: lightgoldenrodyellow;
+}
+
+#open * {
+    background-color: transparent;
+}
+
+form  {
+    width: 200px;
+    background-color: lightgoldenrodyellow !important;
+    border: 3px solid rebeccapurple;
+}
+
+select {
+    background-color: cornflowerblue !important;
+    border: 3px solid rebeccapurple;
+}
+
+button {
+    background-color: cornflowerblue !important;
+    border: 3px solid rebeccapurple;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+#recipe {
+    line-height: 30px;
+    border: 5px solid white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#recipe h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#recipe h3 {
+    font-size: 30px;
+}
+
+#recipe ul {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#recipe li {
+    font-size: 25px;
+}
+
+#recipe p {
+    font-size: 22px;
+}
